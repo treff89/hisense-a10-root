@@ -1,13 +1,13 @@
 # Hisense A10 (HNR667N) root with Magisk
 
 How I rooted my Hisense A10 e-ink phone, plus the stock and patched images. Done on firmware
-**N2903.6.04.15.00 (build 82)**, Android 16, December 2025 patch, with Magisk 30.7.
+**N2903.6.04.15.00 (build 82)**, Android 16, with Magisk 30.7.
 
 There's no stock firmware for this phone anywhere online. Hisense only pushes incremental OTAs, so I dumped the
 images myself and checked them against the hashes in Hisense's own OTA manifest. They're bit-for-bit original.
 
-The usual disclaimer: this is your phone and your risk. Unlocking wipes everything, and banking/tap-to-pay apps
-may stop working.
+**This is your phone and your risk. Unlocking wipes everything, and banking/tap-to-pay apps
+may stop working. You might brick your brand-new phone!**
 
 ## Files
 
@@ -130,3 +130,5 @@ Don't relock the bootloader with a patched image installed. That's how you brick
 - `Hisense/HNR667N/HNR667N:16/BQ2A.260225.001-BP2A.250705.008/82:user/release-keys`
 - Vendor/boot is Android 14 (`UKQ1.260305.001`), kernel 6.1.145 GKI
 - A/B with virtual A/B; init_boot is 8 MB
+
+Again: do this at your own risk!! I take no responsibility for your bricked phone, sorry!
